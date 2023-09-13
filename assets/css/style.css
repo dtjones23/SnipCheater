@@ -13,6 +13,37 @@ h1 {
 
 header p {
     text-align: center;
-    margin: 20px 200px;
+    margin: 20px 20%;
     color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+h2 {
+    font-size: 30px;
+    border: 30px;
+}
+
+.box-1 h2{ 
+    border: 1px dotted rgb(255, 255, 255);
+    margin: 10px 5px 5px 0px;
+    padding: 10px;
+    border-radius: 9%;
+    line-height: 15px;
+    width: 400px;
+}
+
+.box-2 {
+    border: 1px dotted red;
+}
+
+.bottom-box {
+    border: 1px dotted white;
+    padding: 30%;
+    margin: 15px 0px;
+    
 }
